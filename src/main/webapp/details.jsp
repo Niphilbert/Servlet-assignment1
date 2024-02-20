@@ -17,12 +17,21 @@
             <li><a href="convert">Convert</a></li>
             <li><a href="login">Login</a></li>
             <li><a href="request">Request</a></li>
+            <li><a href="Signup.jsp">Signup</a></li>
         </ul>
     </nav>
 </div>
 
 <div class="admission-details">
     <h2>Admission Details</h2>
+
+    <!--display image-->
+    <img src="uploads/<%= request.getAttribute("file1") %>" alt="uploaded image" width="300">
+
+<!---provide download link for PDF-->
+
+   <a href="uploads/<%= request.getAttribute("file2") %>" download="<%= request.getAttribute("file2") %>">Download PDF</a>
+
     <p><strong>Student Name:</strong> <%= request.getAttribute("studentName") %></p>
     <p><strong>Student Email:</strong> <%= request.getAttribute("studentEmail") %></p>
     <p><strong>Student Phone Number:</strong> <%= request.getAttribute("studentPhoneNumber") %></p>

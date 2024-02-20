@@ -17,6 +17,7 @@
             <li><a href="convert">Convert</a></li>
             <li><a href="login">Login</a></li>
             <li><a href="request">Request</a></li>
+            <li><a href="Signup.jsp">Signup</a></li>
         </ul>
     </nav>
 </div>
