@@ -3,3 +3,4 @@ Login.class
 Signup.class
 Request.class
 AuthenticationFilter.class
+Request$1.class
